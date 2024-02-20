@@ -26,7 +26,7 @@ class Game:
         if not self.active_phrase.check_letter(guess):
           self.missed += 1
           print(f"you have {5-self.missed} guesses left")
-      self.newgame()
+      #self.newgame()
 
       #self.game_over()
 
